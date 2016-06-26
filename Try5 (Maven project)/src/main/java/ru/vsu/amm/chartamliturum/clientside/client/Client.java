@@ -1,5 +1,5 @@
 // Я думаю, в этом package должна производиться вся работа с сетью/сервером
-package ru.vsu.amm.chartamliturum.client;
+package ru.vsu.amm.chartamliturum.clientside.client;
 
 import org.springframework.http.*;
 import org.springframework.web.client.RestTemplate;
