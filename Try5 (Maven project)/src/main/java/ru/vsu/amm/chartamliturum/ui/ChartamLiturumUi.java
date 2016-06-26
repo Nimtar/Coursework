@@ -1,4 +1,4 @@
-// Тут тоже что-то должно быть. UI должне быть. 
+// Тут тоже что-то должно быть. UI должне быть.
 package ru.vsu.amm.chartamliturum.ui;
 
 import javafx.application.Application;
