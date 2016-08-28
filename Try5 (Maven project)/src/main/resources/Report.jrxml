@@ -1,0 +1,1818 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Created with Jaspersoft Studio version 6.3.0.final using JasperReports Library version 6.3.0  --><!-- 2016-08-28T03:46:55 -->
+<jasperReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://jasperreports.sourceforge.net/jasperreports"
+  xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd"
+  name="Blank_A4" pageWidth="595" pageHeight="842"
+  whenNoDataType="AllSectionsNoDetail" columnWidth="555" leftMargin="20"
+  rightMargin="20" topMargin="20" bottomMargin="20"
+  uuid="213a38e9-293d-42a0-baa3-274100884af5">
+    <property name="com.jaspersoft.studio.data.defaultdataadapter"
+      value="Sample DB"/>
+    <property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+    <style name="Table 1_TH" mode="Opaque" backcolor="#FFFFFF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 1_CH" mode="Opaque" backcolor="#FFBFBF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 2_TH" mode="Opaque" backcolor="#D5CBBF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 2_CH" mode="Opaque" backcolor="#FFF4E6">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 4_CH" mode="Opaque" backcolor="#BFE1FF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 5_TH" mode="Opaque" backcolor="#F0F8FF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 5_CH" mode="Opaque" backcolor="#BFE1FF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table 5_TD" mode="Opaque" backcolor="#FFFFFF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table_TH" mode="Opaque" backcolor="#FFFFFF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table_CH" mode="Opaque" backcolor="#FFFFFF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+        <box>
+            <pen lineWidth="0.5" lineColor="#000000"/>
+            <topPen lineWidth="0.5" lineColor="#000000"/>
+            <leftPen lineWidth="0.5" lineColor="#000000"/>
+            <bottomPen lineWidth="0.5" lineColor="#000000"/>
+            <rightPen lineWidth="0.5" lineColor="#000000"/>
+        </box>
+    </style>
+    <subDataset name="Dataset1" uuid="6ba91103-17b7-4efe-a968-c4129157e2f5">
+        <property name="com.jaspersoft.studio.data.defaultdataadapter"
+          value="Sample DB"/>
+        <property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+        <queryString>
+            <![CDATA[SELECT "ADDRESS"."ID",
+	"ADDRESS"."FIRSTNAME",
+	"ADDRESS"."STREET",
+	"ADDRESS"."CITY",
+	"ADDRESS"."LASTNAME",
+	"DOCUMENT"."ADDRESSID"
+FROM "ADDRESS",
+	"DOCUMENT"]]>
+        </queryString>
+        <field name="ID" class="java.lang.Integer"/>
+        <field name="FIRSTNAME" class="java.lang.String"/>
+        <field name="STREET" class="java.lang.String"/>
+        <field name="CITY" class="java.lang.String"/>
+        <field name="LASTNAME" class="java.lang.String"/>
+        <field name="ADDRESSID" class="java.lang.Integer"/>
+    </subDataset>
+    <subDataset name="CourseSectionSubjectsDataset"
+      uuid="7ec4fc25-d44b-4c5d-9ad7-4e630d7fd877">
+        <property name="com.jaspersoft.studio.data.defaultdataadapter"
+          value="Sample DB"/>
+        <property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+        <queryString>
+            <![CDATA[SELECT "ORDERS"."ORDERID" AS "№",
+	"ORDERS"."SHIPADDRESS" AS "COURSE_SECTION_NAME",
+	"ORDERS"."SHIPNAME" AS "COURSE_SECTION_SUBJECT"
+FROM "ORDERS"]]>
+        </queryString>
+        <field name="№" class="java.lang.Integer"/>
+        <field name="COURSE_SECTION_NAME" class="java.lang.String"/>
+        <field name="COURSE_SECTION_SUBJECT" class="java.lang.String"/>
+    </subDataset>
+    <subDataset name="IntercourseRelationsDataset"
+      uuid="31044106-dc55-489d-9d29-a722b42e415a">
+        <property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+        <property name="com.jaspersoft.studio.data.defaultdataadapter"
+          value="Sample DB"/>
+        <queryString>
+            <![CDATA[SELECT "TASKS"."SERIES" AS "№",
+	"TASKS"."TASK" AS "RELATED_COURSE_NAME",
+	"TASKS"."SUBTASK" AS "RELATED_COURSE_ID"
+FROM "TASKS"]]>
+        </queryString>
+        <field name="№" class="java.lang.String"/>
+        <field name="RELATED_COURSE_NAME" class="java.lang.String"/>
+        <field name="RELATED_COURSE_ID" class="java.lang.String"/>
+    </subDataset>
+    <subDataset name="CourseSectionsDataset"
+      uuid="3030c6db-451b-4bf4-87e2-92d78946fdc6">
+        <property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+        <property name="com.jaspersoft.studio.data.defaultdataadapter"
+          value="Sample DB"/>
+        <queryString>
+            <![CDATA[SELECT "ORDERS"."ORDERID" AS "№",
+	"ORDERS"."CUSTOMERID" AS "COURSE_SECTION_NAME",
+	"ORDERS"."EMPLOYEEID" AS "LECTURES",
+	"ORDERS"."ORDERDATE" AS "PRACTICE",
+	"ORDERS"."REQUIREDDATE" AS "LAB",
+	"ORDERS"."SHIPVIA" AS "INDEPENDENT",
+	"ORDERS"."FREIGHT" AS "ALL"
+FROM "ORDERS"]]>
+        </queryString>
+        <field name="№" class="java.lang.Integer"/>
+        <field name="COURSE_SECTION_NAME" class="java.lang.String"/>
+        <field name="LECTURES" class="java.lang.Integer"/>
+        <field name="PRACTICE" class="java.sql.Timestamp"/>
+        <field name="LAB" class="java.sql.Timestamp"/>
+        <field name="INDEPENDENT" class="java.lang.Integer"/>
+        <field name="ALL" class="java.math.BigDecimal"/>
+    </subDataset>
+    <subDataset name="AcademicAndInformationSupport"
+      uuid="7cf5087f-a88b-4dde-86fe-a7023857879c">
+        <property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+        <property name="com.jaspersoft.studio.data.defaultdataadapter"
+          value="Sample DB"/>
+        <queryString>
+            <![CDATA[SELECT "TASKS"."SERIES" AS "№",
+	"TASKS"."PERCENT" AS "REFERENCE_1",
+	"TASKS"."TASK" AS "REFERENCE_2",
+	"TASKS"."SUBTASK" AS "REFERENCE_3"
+FROM "TASKS"]]>
+        </queryString>
+        <field name="№" class="java.lang.String"/>
+        <field name="REFERENCE_1" class="java.math.BigDecimal"/>
+        <field name="REFERENCE_2" class="java.lang.String"/>
+        <field name="REFERENCE_3" class="java.lang.String"/>
+    </subDataset>
+    <subDataset name="AssessmentCriteriaDataset"
+      uuid="b24f363a-75fc-4ca1-a992-f5f02f894c95">
+        <property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+        <property name="com.jaspersoft.studio.data.defaultdataadapter"
+          value="Sample DB"/>
+        <queryString>
+            <![CDATA[SELECT "TASKS"."SERIES" AS "MARK",
+	"TASKS"."TASK" AS "CRETERIA"
+FROM "TASKS"]]>
+        </queryString>
+        <field name="MARK" class="java.lang.String"/>
+        <field name="CRETERIA" class="java.lang.String"/>
+    </subDataset>
+    <subDataset name="TestingAndAssessmentMaterialsDataset"
+      uuid="cae79a73-0c89-4d1f-bf89-e3c1603693a2">
+        <property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+        <property name="com.jaspersoft.studio.data.defaultdataadapter"
+          value="Sample DB"/>
+        <queryString>
+            <![CDATA[SELECT "PRODUCT"."NAME" AS "EXAMPLE"
+FROM "PRODUCT"]]>
+        </queryString>
+        <field name="EXAMPLE" class="java.lang.String"/>
+    </subDataset>
+    <subDataset name="WorkTypesDataset"
+      uuid="984ebaab-faf8-4323-b1e9-c1944aaea82c">
+        <property name="com.jaspersoft.studio.data.sql.tables"
+          value="Ik9SREVSUyIgLDE1LDE1LDJjMmQ2MDExLTQ4MGEtNDQ0NS04YWYyLTkxMDU2ZTMwMDg2Mjs="/>
+        <property name="com.jaspersoft.studio.data.defaultdataadapter"
+          value="Sample DB"/>
+        <queryString>
+            <![CDATA[SELECT "ORDERS"."CUSTOMERID" AS "STUDY_WORK_TYPE",
+	"ORDERS"."SHIPNAME" AS "WORKING_TIME",
+	"ORDERS"."SHIPADDRESS" AS "INTER_ALIA_IN_INTERACTIVE_FORM",
+	"ORDERS"."SHIPCITY" AS "FIRST_SEMESTER",
+	"ORDERS"."SHIPREGION" AS "SECOND_SEMESTER"
+FROM "ORDERS"]]>
+        </queryString>
+        <field name="STUDY_WORK_TYPE" class="java.lang.String"/>
+        <field name="WORKING_TIME" class="java.lang.String"/>
+        <field name="INTER_ALIA_IN_INTERACTIVE_FORM" class="java.lang.String"/>
+        <field name="FIRST_SEMESTER" class="java.lang.String"/>
+        <field name="SECOND_SEMESTER" class="java.lang.String"/>
+    </subDataset>
+    <queryString>
+        <![CDATA[SELECT COUNT(0) FROM "ADDRESS"]]>
+    </queryString>
+    <background>
+        <band splitType="Stretch"/>
+    </background>
+    <title>
+        <band height="99" splitType="Stretch">
+            <property name="com.jaspersoft.studio.layout"
+              value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+            <staticText>
+                <reportElement positionType="Float" x="0" y="0" width="555"
+                  height="99" isRemoveLineWhenBlank="true"
+                  uuid="22554b9c-023c-4942-9be2-56082069fcce"/>
+                <box topPadding="0" leftPadding="0" bottomPadding="0"
+                  rightPadding="0">
+                    <topPen lineWidth="0.0" lineStyle="Solid"
+                      lineColor="#000000"/>
+                    <leftPen lineWidth="0.0" lineStyle="Solid"
+                      lineColor="#000000"/>
+                    <bottomPen lineWidth="0.0" lineStyle="Solid"
+                      lineColor="#000000"/>
+                    <rightPen lineWidth="0.0" lineStyle="Solid"
+                      lineColor="#000000"/>
+                </box>
+                <textElement textAlignment="Center" verticalAlignment="Middle"
+                  markup="none">
+                    <font fontName="Arial" size="12" isBold="true"/>
+                </textElement>
+                <text><![CDATA[МИНОБРНАУКИ РОССИИ
+ФЕДЕРАЛЬНОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ 
+«ВОРОНЕЖСКИЙ ГОСУДАРСТВЕННЫЙ УНИВЕРСИТЕТ»  
+(ФГБОУ ВПО «ВГУ»)]]></text>
+            </staticText>
+        </band>
+    </title>
+    <detail>
+        <band height="141">
+            <staticText>
+                <reportElement x="0" y="10" width="555" height="21"
+                  uuid="626aaa1e-c5b6-477e-8fa6-75dd459f8b47"/>
+                <textElement textAlignment="Right">
+                    <font fontName="Arial" size="12" isBold="true"/>
+                </textElement>
+                <text><![CDATA[УТВЕРЖДАЮ]]></text>
+            </staticText>
+            <staticText>
+                <reportElement positionType="Float"
+                  stretchType="RelativeToBandHeight" x="0" y="31" width="555"
+                  height="30" uuid="7d7b528c-ee09-4004-8a7f-d93a1616a4ad"/>
+                <textElement textAlignment="Right">
+                    <font fontName="Arial" size="12"/>
+                </textElement>
+                <text><![CDATA[Заведующий кафедрой
+Махортов С.Д.]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="61" width="555" height="30"
+                  uuid="e431aa7c-c00c-4fe1-8ca9-67897fb6c095"/>
+                <textElement textAlignment="Right">
+                    <font fontName="Arial" size="10" isBold="false"
+                      isItalic="true"/>
+                </textElement>
+                <text><![CDATA[Наименование кафедры, отвечающей за реализацию дисциплины
+МО ЭВМ (ПММ)]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="91" width="555" height="20"
+                  uuid="39b2cbee-cd09-4b3b-8d89-902300cc5ceb"/>
+                <textElement textAlignment="Right"/>
+                <text><![CDATA[подпись, рашифровка подписи]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="121" width="555" height="20"
+                  uuid="f49a1ffc-7aeb-406d-adc0-655eec43a859"/>
+                <textElement textAlignment="Right"/>
+                <text><![CDATA[2015г.]]></text>
+            </staticText>
+        </band>
+        <band height="666">
+            <staticText>
+                <reportElement x="92" y="10" width="370" height="20"
+                  isPrintInFirstWholeBand="true"
+                  uuid="bd26e956-5f0b-4485-a6ac-d503b1ac815e"/>
+                <textElement textAlignment="Center">
+                    <font size="14" isBold="true"/>
+                </textElement>
+                <text><![CDATA[РАБОЧАЯ ПРОГРАММА УЧЕБНОЙ ДИСЦИПЛИНЫ]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="92" y="30" width="370" height="20"
+                  isPrintInFirstWholeBand="true"
+                  uuid="d31761f0-3b59-48b2-817f-37833fca848c"/>
+                <textElement textAlignment="Center" verticalAlignment="Top">
+                    <font size="11" isItalic="true"/>
+                </textElement>
+                <text>
+                    <![CDATA[М1.В.ДВ.2 Современные операционные системы]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="92" y="50" width="370" height="20"
+                  isPrintInFirstWholeBand="true"
+                  uuid="cd7a6ecb-ee81-4fb2-a545-08f77c20c606"/>
+                <textElement textAlignment="Center">
+                    <font size="11" isItalic="true"/>
+                </textElement>
+                <text>
+                    <![CDATA[Код и наименование дисциплины в соответствии с Учебным планом]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="60" y="90" width="440" height="20"
+                  uuid="c20a7858-e3d9-41ff-994e-ca37ca7174ce"/>
+                <textElement textAlignment="Center">
+                    <font size="11" isItalic="true"/>
+                </textElement>
+                <text>
+                    <![CDATA[010400.68 Прикладная математика и информатика]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="70" width="550" height="20"
+                  uuid="29c78795-5fbf-4bf8-92d1-297051674d9d"/>
+                <textElement>
+                    <font size="12" isBold="true" isItalic="false"/>
+                </textElement>
+                <text>
+                    <![CDATA[1. Шифр и наименование направления подготовки / специальности: ]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="130" width="555" height="20"
+                  uuid="8a84a1e5-75fc-4e49-846a-7f628c500e03"/>
+                <textElement>
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <text>
+                    <![CDATA[2. Профиль подготовки / специализации / магистерская программа:]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="150" width="555" height="20"
+                  uuid="21bf9c9d-3b0f-4326-8421-330f9ac15c9a"/>
+                <textElement textAlignment="Center">
+                    <font fontName="SansSerif" size="11" isItalic="true"/>
+                </textElement>
+                <text>
+                    <![CDATA[Математическое и программное обеспечение вычислительных машин]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="180" width="250" height="20"
+                  uuid="316a0b72-0245-41d0-80ed-0e9d8194dd82"/>
+                <textElement>
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <text><![CDATA[3. Квалификация (степень) выпускника: ]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="250" y="180" width="100" height="20"
+                  uuid="8a6c10aa-3aad-4c31-9836-1b3cbba5a936"/>
+                <textElement textAlignment="Center">
+                    <font size="11" isItalic="true"/>
+                </textElement>
+                <text><![CDATA[   магистр]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="213" width="130" height="20"
+                  uuid="00cb1d2b-5728-4f99-8ceb-07ca62d4b0e5"/>
+                <textElement>
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <text><![CDATA[4. Форма обучения:]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="130" y="213" width="100" height="20"
+                  uuid="17e6b210-e183-40d3-a4bf-a098bb5f00f8"/>
+                <textElement textAlignment="Center" markup="none">
+                    <font size="11" isBold="false" isItalic="true"/>
+                </textElement>
+                <text><![CDATA[очная]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="243" width="340" height="20"
+                  uuid="2eb95ac2-49c2-4a2e-85ca-0d7b24cab69b"/>
+                <textElement verticalAlignment="Justified">
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <text>
+                    <![CDATA[5. Кафедра, отвечающая за реализацию дисциплины: ]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="340" y="243" width="100" height="20"
+                  uuid="6de36c84-b389-4139-9df8-a8cd1894d64a"/>
+                <textElement textAlignment="Center">
+                    <font size="11" isItalic="true"/>
+                </textElement>
+                <text><![CDATA[МО ЭВМ]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="263" width="180" height="20"
+                  uuid="34217001-58a9-40c5-97bf-f9d1af579d93"/>
+                <textElement>
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <text><![CDATA[6. Составители программы: ]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="285" width="130" height="19"
+                  uuid="2308a174-e6a6-404c-9a34-72e2a4d2e967"/>
+                <textElement>
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <text><![CDATA[7. Рекомендована:     ]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="305" width="555" height="14"
+                  uuid="f12c896f-6c60-47bc-8d3e-a22c497d1e51"/>
+                <textElement textAlignment="Center">
+                    <font size="11" isItalic="true"/>
+                </textElement>
+                <text>
+                    <![CDATA[(наименование рекомендующей структуры, дата, номер протокола)]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="240" y="285" width="39" height="20"
+                  uuid="10ed154e-0086-4aa7-828c-6843faf5aa54"/>
+                <textElement>
+                    <font size="12"/>
+                </textElement>
+                <text><![CDATA[№ ]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="340" width="100" height="19"
+                  uuid="fc32052a-2dc9-4df4-bb95-8d871ff5bee2"/>
+                <textElement>
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <text><![CDATA[8. Учебный год: ]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="100" y="340" width="60" height="20"
+                  uuid="a94755a2-31d9-4bee-83b9-7091d7d503fa"/>
+                <textElement verticalAlignment="Middle">
+                    <font size="11" isItalic="true"/>
+                </textElement>
+                <text><![CDATA[2015-2016 ]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="220" y="340" width="100" height="19"
+                  uuid="40db0eab-0dfd-4094-b268-cf90e52f44a1"/>
+                <textElement>
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <text><![CDATA[Семестр(-ы): ]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="500" width="299" height="19"
+                  uuid="c49f41b4-88f3-42d2-ab75-e41dce63eb8c"/>
+                <textElement>
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <text>
+                    <![CDATA[10. Место учебной дисциплины в структуре ООП:]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="2" y="520" width="220" height="19"
+                  uuid="f79afd88-6b7a-4021-a323-2dc8047a2193"/>
+                <textElement>
+                    <font size="11" isUnderline="true"/>
+                </textElement>
+                <text><![CDATA[Цикл, к которому относится дисциплина:]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="6" y="540" width="549" height="18"
+                  uuid="7f3fba0c-c964-46ed-acbb-63b5844608e6"/>
+                <textElement>
+                    <font size="11"/>
+                </textElement>
+                <text><![CDATA[Профессиональный цикл]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="560" width="310" height="19"
+                  uuid="4e157df1-7b23-4eb6-8340-d080988cbeb8"/>
+                <textElement>
+                    <font size="11" isUnderline="true"/>
+                </textElement>
+                <text>
+                    <![CDATA[Требования к входным знаниям, умениям и компетенциям:]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="5" y="579" width="550" height="30"
+                  uuid="1460b4ea-4e73-4b0f-ab7e-da57eaf7e4cc"/>
+                <textElement>
+                    <font size="11"/>
+                </textElement>
+                <text>
+                    <![CDATA[Студенты должны освоить курс: Объектно-ориентированное программирование, язык программирования Java]]></text>
+            </staticText>
+            <staticText>
+                <reportElement positionType="Float" x="0" y="380" width="534"
+                  height="115" uuid="ef27c0bc-1b3e-4fa6-88ef-3c226946bc29"/>
+                <textElement verticalAlignment="Justified" markup="none">
+                    <font size="12"/>
+                    <paragraph lineSpacing="Proportional"
+                      lineSpacingSize="1.5"/>
+                </textElement>
+                <text>
+                    <![CDATA[Курс включает в себя все базовые понятия. По окончании курса студент сможет разрабатывать приложения для мобильных устройств на платформе Android и будет иметь надежный фундамент для дальнейшего развития. Профессиональная литература по программированию приложений и интерфейса станет доступна для понимания, так как все базовые понятия платформы и стандартные фреймворки будут рассмотрены в курсе. ]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="610" width="555" height="19"
+                  uuid="f49963b8-3157-49c7-b2af-1c09138f951f"/>
+                <textElement>
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <text>
+                    <![CDATA[11. Компетенции обучающегося, формируемые в результате освоения дисциплины:]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="6" y="629" width="555" height="19"
+                  uuid="3ded9fc6-f5c6-430c-9455-765082e65993"/>
+                <textElement>
+                    <font size="11"/>
+                </textElement>
+                <text>
+                    <![CDATA[а) общекультурные (ОК): 1, 9, 11, 12, 14, 15, 16]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="6" y="648" width="552" height="18"
+                  uuid="b954299d-5e34-4162-ae02-ec1ddbcd6407"/>
+                <textElement>
+                    <font size="11"/>
+                </textElement>
+                <text>
+                    <![CDATA[б) профессиональные (ПК): 1, 6, 7, 9, 10, 14]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="360" width="556" height="20"
+                  uuid="1a4ab6c6-65fd-466e-8092-621055cb69e2"/>
+                <textElement>
+                    <font fontName="Arial" size="12" isBold="true"
+                      isItalic="true"/>
+                </textElement>
+                <text><![CDATA[9. Цели и задачи учебной дисциплины: ]]></text>
+            </staticText>
+        </band>
+        <band height="188">
+            <staticText>
+                <reportElement x="0" y="0" width="555" height="50"
+                  uuid="258125c9-ba8d-44c2-9221-99f064f7264f"/>
+                <textElement>
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <text><![CDATA[12. Структура и содержание учебной дисциплины:
+12.1 Объем дисциплины в зачетных единицах/часах в соответствии с учебным планом —
+12.2 Виды учебной работы:
+]]></text>
+            </staticText>
+            <componentElement>
+                <reportElement x="0" y="50" width="555" height="120"
+                  uuid="77be25eb-9fa8-48a5-9cac-cdc06b696fe2">
+                    <property name="com.jaspersoft.studio.layout"
+                      value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+                    <property
+                      name="com.jaspersoft.studio.table.style.table_header"
+                      value="Table_TH"/>
+                    <property
+                      name="com.jaspersoft.studio.table.style.column_header"
+                      value="Table_CH"/>
+                    <property name="com.jaspersoft.studio.table.style.detail"
+                      value="Table_TD"/>
+                    <property
+                      name="net.sf.jasperreports.export.headertoolbar.table.name"
+                      value=""/>
+                    <property
+                      name="com.jaspersoft.studio.components.autoresize.proportional"
+                      value="true"/>
+                </reportElement>
+                <jr:table
+                  xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components"
+                  xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+                    <datasetRun subDataset="WorkTypesDataset"
+                      uuid="b6c18977-290b-482d-adc6-7561258cdd83">
+                        <connectionExpression>
+                            <![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+                    </datasetRun>
+                    <jr:column width="111"
+                      uuid="4d1a7190-eac9-4fa7-bdb2-77ec479b4139">
+                        <property
+                          name="com.jaspersoft.studio.components.table.model.column.name"
+                          value="Column1"/>
+                        <jr:columnHeader style="Table_CH" height="90"
+                          rowSpan="3">
+                            <staticText>
+                                <reportElement x="0" y="0" width="111"
+                                  height="90"
+                                  uuid="eace137a-7357-444c-9280-7b33e4a04e21"/>
+                                <textElement textAlignment="Center"
+                                  verticalAlignment="Middle"/>
+                                <text><![CDATA[Вид учебной работы]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table_TD" height="30">
+                            <textField>
+                                <reportElement x="0" y="0" width="111"
+                                  height="30"
+                                  uuid="a95e3090-eb4f-49d8-b8e7-07dafd6754c4"/>
+                                <textElement textAlignment="Left"
+                                  verticalAlignment="Middle">
+                                    <paragraph firstLineIndent="3"
+                                      leftIndent="3"/>
+                                </textElement>
+                                <textFieldExpression>
+                                    <![CDATA[$F{STUDY_WORK_TYPE}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                    <jr:columnGroup width="444"
+                      uuid="60a66976-640b-4204-8bae-b85ddfafab90">
+                        <property
+                          name="com.jaspersoft.studio.components.table.model.column.name"
+                          value="Columns [4]"/>
+                        <jr:columnHeader style="Table_CH" height="30">
+                            <staticText>
+                                <reportElement x="0" y="0" width="444"
+                                  height="30"
+                                  uuid="a23494d7-6a13-4e4c-8e20-003c028fdb6d"/>
+                                <textElement textAlignment="Center"
+                                  verticalAlignment="Middle"/>
+                                <text><![CDATA[Трудоёмкость (часы)]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:column width="111"
+                          uuid="b8a74256-eed1-4cf0-aed1-a66fcfeb6fb2">
+                            <property
+                              name="com.jaspersoft.studio.components.table.model.column.name"
+                              value="Column2"/>
+                            <jr:columnHeader style="Table_CH" height="60"
+                              rowSpan="2">
+                                <staticText>
+                                    <reportElement x="0" y="0" width="111"
+                                      height="60"
+                                      uuid="01d6f9a9-2c49-4bcd-a7df-f41e54517e8f"/>
+                                    <textElement textAlignment="Center"
+                                      verticalAlignment="Middle"/>
+                                    <text><![CDATA[Всего]]></text>
+                                </staticText>
+                            </jr:columnHeader>
+                            <jr:detailCell style="Table_TD" height="30">
+                                <textField>
+                                    <reportElement x="0" y="0" width="111"
+                                      height="30"
+                                      uuid="30b49e1a-b93c-40ab-a7ce-1b7a7efeaf2c"/>
+                                    <textElement textAlignment="Left"
+                                      verticalAlignment="Middle">
+                                        <paragraph firstLineIndent="3"
+                                          leftIndent="3"/>
+                                    </textElement>
+                                    <textFieldExpression>
+                                        <![CDATA[$F{WORKING_TIME}]]></textFieldExpression>
+                                </textField>
+                            </jr:detailCell>
+                        </jr:column>
+                        <jr:column width="111"
+                          uuid="11e48672-f0d0-4970-a905-2982233458ed">
+                            <property
+                              name="com.jaspersoft.studio.components.table.model.column.name"
+                              value="Column3"/>
+                            <jr:columnHeader style="Table_CH" height="60"
+                              rowSpan="2">
+                                <staticText>
+                                    <reportElement x="0" y="0" width="111"
+                                      height="60"
+                                      uuid="08ea0960-6400-4b70-bd5d-1e589f552519"/>
+                                    <textElement textAlignment="Center"
+                                      verticalAlignment="Middle"/>
+                                    <text>
+                                        <![CDATA[В том числе в интерактивной форме]]></text>
+                                </staticText>
+                            </jr:columnHeader>
+                            <jr:detailCell style="Table_TD" height="30">
+                                <textField>
+                                    <reportElement x="0" y="0" width="111"
+                                      height="30"
+                                      uuid="5c2637e3-bd47-44ec-85bd-8d73667b23b5"/>
+                                    <textElement textAlignment="Left"
+                                      verticalAlignment="Middle">
+                                        <paragraph firstLineIndent="3"
+                                          leftIndent="3"/>
+                                    </textElement>
+                                    <textFieldExpression>
+                                        <![CDATA[$F{INTER_ALIA_IN_INTERACTIVE_FORM}]]></textFieldExpression>
+                                </textField>
+                            </jr:detailCell>
+                        </jr:column>
+                        <jr:columnGroup width="222"
+                          uuid="81f6f39f-8d10-4af4-801a-9b915f33f2d0">
+                            <property
+                              name="com.jaspersoft.studio.components.table.model.column.name"
+                              value="Columns [2]"/>
+                            <jr:columnHeader style="Table_CH" height="30">
+                                <staticText>
+                                    <reportElement x="0" y="0" width="222"
+                                      height="30"
+                                      uuid="4d63a1c0-1374-4d19-a712-1119380fcc95"/>
+                                    <textElement textAlignment="Center"
+                                      verticalAlignment="Middle"/>
+                                    <text><![CDATA[По семестрам]]></text>
+                                </staticText>
+                            </jr:columnHeader>
+                            <jr:column width="111"
+                              uuid="db6c1e38-bc66-462c-959d-debf97641dd8">
+                                <property
+                                  name="com.jaspersoft.studio.components.table.model.column.name"
+                                  value="Column4"/>
+                                <jr:columnHeader style="Table_CH" height="30"
+                                  rowSpan="1"/>
+                                <jr:detailCell style="Table_TD" height="30">
+                                    <textField>
+                                        <reportElement x="0" y="0" width="111"
+                                          height="30"
+                                          uuid="8b7e2e28-3991-4bd3-945e-57d7b9fa5520"/>
+                                        <textElement textAlignment="Left"
+                                          verticalAlignment="Middle">
+                                            <paragraph firstLineIndent="3"
+                                              leftIndent="3"/>
+                                        </textElement>
+                                        <textFieldExpression>
+                                            <![CDATA[$F{FIRST_SEMESTER}]]></textFieldExpression>
+                                    </textField>
+                                </jr:detailCell>
+                            </jr:column>
+                            <jr:column width="111"
+                              uuid="9fc6f986-0c24-4a98-9c86-587c90b50579">
+                                <property
+                                  name="com.jaspersoft.studio.components.table.model.column.name"
+                                  value="Column5"/>
+                                <jr:columnHeader style="Table_CH" height="30"
+                                  rowSpan="1"/>
+                                <jr:detailCell style="Table_TD" height="30">
+                                    <textField>
+                                        <reportElement x="0" y="0" width="111"
+                                          height="30"
+                                          uuid="95df55ce-dcf4-4161-a3e9-597a4ba46862"/>
+                                        <textElement textAlignment="Left"
+                                          verticalAlignment="Middle">
+                                            <paragraph firstLineIndent="3"
+                                              leftIndent="3"/>
+                                        </textElement>
+                                        <textFieldExpression>
+                                            <![CDATA[$F{SECOND_SEMESTER}]]></textFieldExpression>
+                                    </textField>
+                                </jr:detailCell>
+                            </jr:column>
+                        </jr:columnGroup>
+                    </jr:columnGroup>
+                </jr:table>
+            </componentElement>
+        </band>
+        <band height="96">
+            <staticText>
+                <reportElement x="0" y="0" width="555" height="20"
+                  uuid="bf21f87d-f77a-462a-bac0-6ba40167b901"/>
+                <textElement>
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <text><![CDATA[12.3. Содержание разделов дисциплины:]]></text>
+            </staticText>
+            <componentElement>
+                <reportElement x="0" y="20" width="555" height="60"
+                  uuid="2dc926ab-3b2e-4ad8-b576-34b7107cc377">
+                    <property name="com.jaspersoft.studio.layout"
+                      value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+                    <property
+                      name="com.jaspersoft.studio.table.style.table_header"
+                      value="Table 1_TH"/>
+                    <property
+                      name="com.jaspersoft.studio.table.style.column_header"
+                      value="Table 1_CH"/>
+                    <property name="com.jaspersoft.studio.table.style.detail"
+                      value="Table 1_TD"/>
+                </reportElement>
+                <jr:table
+                  xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components"
+                  xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+                    <datasetRun subDataset="CourseSectionSubjectsDataset"
+                      uuid="71eb84fb-b95f-45de-ad9d-55b39663d838">
+                        <connectionExpression>
+                            <![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+                    </datasetRun>
+                    <jr:column width="40"
+                      uuid="85483f9b-7811-4fa2-8445-536121422fee">
+                        <property
+                          name="com.jaspersoft.studio.components.table.model.column.name"
+                          value="Column1"/>
+                        <jr:columnHeader style="Table 1_CH" height="30"
+                          rowSpan="1">
+                            <staticText>
+                                <reportElement mode="Opaque" x="0" y="0"
+                                  width="40" height="30"
+                                  uuid="30fe4045-756d-4966-b431-76cf6a031143"/>
+                                <textElement textAlignment="Center"
+                                  verticalAlignment="Middle"/>
+                                <text><![CDATA[#]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table 1_TD" height="30">
+                            <textField>
+                                <reportElement x="0" y="0" width="40"
+                                  height="30"
+                                  uuid="1339794e-cc12-4d5e-9783-5d8cc892f27c"/>
+                                <textFieldExpression>
+                                    <![CDATA[$F{№}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                    <jr:column width="258"
+                      uuid="d877f302-7839-4890-8b2a-c0084d3c8f03">
+                        <property
+                          name="com.jaspersoft.studio.components.table.model.column.name"
+                          value="Column2"/>
+                        <jr:columnHeader style="Table 1_CH" height="30"
+                          rowSpan="1">
+                            <staticText>
+                                <reportElement mode="Opaque" x="0" y="0"
+                                  width="258" height="30" backcolor="#FFFFFF"
+                                  uuid="a011575a-fc07-4d79-9c49-b443df34a12e"/>
+                                <textElement textAlignment="Center"
+                                  verticalAlignment="Middle">
+                                    <font size="10"/>
+                                </textElement>
+                                <text>
+                                    <![CDATA[Наименование раздела дисциплины]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table 1_TD" height="30">
+                            <textField>
+                                <reportElement x="0" y="0" width="258"
+                                  height="30"
+                                  uuid="a2fe63f0-d99c-46d6-b528-96c24ac7ee1b"/>
+                                <textElement>
+                                    <paragraph firstLineIndent="3"
+                                      leftIndent="3"/>
+                                </textElement>
+                                <textFieldExpression>
+                                    <![CDATA[$F{COURSE_SECTION_NAME}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                    <jr:column width="257"
+                      uuid="d94d4c2a-3c3f-4fda-9bae-a93b9f5af7a9">
+                        <property
+                          name="com.jaspersoft.studio.components.table.model.column.name"
+                          value="Column3"/>
+                        <jr:columnHeader style="Table 1_CH" height="30"
+                          rowSpan="1">
+                            <staticText>
+                                <reportElement mode="Opaque" x="0" y="0"
+                                  width="257" height="30"
+                                  uuid="fa6e342c-8d18-4c05-8444-b87f9bc127a1"/>
+                                <textElement textAlignment="Center"
+                                  verticalAlignment="Middle">
+                                    <font size="10"/>
+                                </textElement>
+                                <text>
+                                    <![CDATA[Содержание раздела дисциплины]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table 1_TD" height="30">
+                            <textField>
+                                <reportElement x="0" y="0" width="257"
+                                  height="30"
+                                  uuid="2ac2a3fe-0ad1-4ed2-9922-efe8943979b8"/>
+                                <textElement>
+                                    <paragraph firstLineIndent="3"
+                                      leftIndent="3"/>
+                                </textElement>
+                                <textFieldExpression>
+                                    <![CDATA[$F{COURSE_SECTION_SUBJECT}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                </jr:table>
+            </componentElement>
+        </band>
+        <band height="98">
+            <staticText>
+                <reportElement x="0" y="0" width="555" height="20"
+                  uuid="0c0fd899-6660-480e-bd3c-c3a969b9daca"/>
+                <textElement>
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <text><![CDATA[12.4 Междисциплинарные связи:]]></text>
+            </staticText>
+            <componentElement>
+                <reportElement x="0" y="20" width="555" height="60"
+                  uuid="18243f02-4fb3-4c9e-8cf0-08588b968ff0">
+                    <property name="com.jaspersoft.studio.layout"
+                      value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+                    <property
+                      name="com.jaspersoft.studio.table.style.table_header"
+                      value="Table 2_TH"/>
+                    <property
+                      name="com.jaspersoft.studio.table.style.column_header"
+                      value="Table 2_CH"/>
+                    <property name="com.jaspersoft.studio.table.style.detail"
+                      value="Table 2_TD"/>
+                    <property
+                      name="com.jaspersoft.studio.components.autoresize.proportional"
+                      value="true"/>
+                </reportElement>
+                <jr:table
+                  xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components"
+                  xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+                    <datasetRun subDataset="IntercourseRelationsDataset"
+                      uuid="db07f1c3-8344-4ba6-8f2b-ff98b390d80d">
+                        <connectionExpression>
+                            <![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+                    </datasetRun>
+                    <jr:column width="158"
+                      uuid="c2c824c6-bfa7-40c8-9215-8f32c95dbfaa">
+                        <jr:columnHeader style="Table 2_CH" height="30">
+                            <staticText>
+                                <reportElement mode="Opaque" x="0" y="0"
+                                  width="158" height="30"
+                                  uuid="94b5724e-6663-4a76-8c22-94ccfd4ada4c"/>
+                                <text><![CDATA[SERIES]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table 2_TD" height="30">
+                            <textField>
+                                <reportElement x="0" y="0" width="158"
+                                  height="30"
+                                  uuid="59979ee0-09b8-4e6c-a9a7-2e2b84ceff65"/>
+                                <textElement>
+                                    <paragraph firstLineIndent="3"
+                                      leftIndent="3"/>
+                                </textElement>
+                                <textFieldExpression>
+                                    <![CDATA[$F{№}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                    <jr:column width="188"
+                      uuid="d244e6b7-1b15-4549-95fd-93d38d6d4fc2">
+                        <jr:columnHeader style="Table 2_CH" height="30">
+                            <staticText>
+                                <reportElement mode="Opaque" x="0" y="0"
+                                  width="188" height="30"
+                                  uuid="f79af869-175a-4851-8ccd-de0d3de7a99f"/>
+                                <text><![CDATA[TASK]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table 2_TD" height="30">
+                            <textField>
+                                <reportElement x="0" y="0" width="188"
+                                  height="30"
+                                  uuid="d84f2d4f-349c-4aba-a265-fa0e311faaac"/>
+                                <textElement>
+                                    <paragraph firstLineIndent="3"
+                                      leftIndent="3"/>
+                                </textElement>
+                                <textFieldExpression>
+                                    <![CDATA[$F{RELATED_COURSE_NAME}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                    <jr:column width="209"
+                      uuid="0f8929bf-2b45-4193-bd77-1e951f765d73">
+                        <jr:columnHeader style="Table 2_CH" height="30">
+                            <staticText>
+                                <reportElement mode="Opaque" x="0" y="0"
+                                  width="209" height="30"
+                                  uuid="dbb3f215-3ac5-41d2-b8d1-0f5d00c028c2"/>
+                                <text><![CDATA[SUBTASK]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table 2_TD" height="30">
+                            <textField>
+                                <reportElement x="0" y="0" width="209"
+                                  height="30"
+                                  uuid="8b5f926d-a92a-461b-8a7e-183c4f89cb9c"/>
+                                <textElement>
+                                    <paragraph firstLineIndent="3"
+                                      leftIndent="3"/>
+                                </textElement>
+                                <textFieldExpression>
+                                    <![CDATA[$F{RELATED_COURSE_ID}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                </jr:table>
+            </componentElement>
+        </band>
+        <band height="128">
+            <staticText>
+                <reportElement x="0" y="0" width="555" height="20"
+                  uuid="b9aa7de8-1e6c-4986-bdf5-4fb8b600df89"/>
+                <textElement>
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <text>
+                    <![CDATA[12.5. Разделы дисциплины и виды занятий:]]></text>
+            </staticText>
+            <componentElement>
+                <reportElement x="0" y="20" width="555" height="90"
+                  uuid="e3c3bd31-532c-4ec0-ab6e-6e941d5305fa">
+                    <property name="com.jaspersoft.studio.layout"
+                      value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+                    <property
+                      name="com.jaspersoft.studio.table.style.table_header"
+                      value="Table 3_TH"/>
+                    <property
+                      name="com.jaspersoft.studio.table.style.column_header"
+                      value="Table 3_CH"/>
+                    <property name="com.jaspersoft.studio.table.style.detail"
+                      value="Table 3_TD"/>
+                    <property
+                      name="com.jaspersoft.studio.components.autoresize.proportional"
+                      value="true"/>
+                </reportElement>
+                <jr:table
+                  xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components"
+                  xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+                    <datasetRun subDataset="CourseSectionsDataset"
+                      uuid="a0ba5806-6cff-4714-85b1-b1919d651a8c">
+                        <connectionExpression>
+                            <![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+                    </datasetRun>
+                    <jr:column width="80"
+                      uuid="9cdf45b7-272c-4d3d-925b-cc12998925e3">
+                        <property
+                          name="com.jaspersoft.studio.components.table.model.column.name"
+                          value="Column1"/>
+                        <jr:columnHeader style="Table 3_CH" height="60"
+                          rowSpan="2">
+                            <staticText>
+                                <reportElement mode="Opaque" x="0" y="0"
+                                  width="80" height="60"
+                                  uuid="3ed76af2-c673-47d7-869e-2ba976d06c65"/>
+                                <textElement textAlignment="Center"
+                                  verticalAlignment="Middle">
+                                    <font size="10"/>
+                                </textElement>
+                                <text><![CDATA[№ п/п]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table 3_TD" height="30">
+                            <textField>
+                                <reportElement x="0" y="0" width="80"
+                                  height="30"
+                                  uuid="ad2f1c3b-63d7-4464-8009-8230e66d00ca"/>
+                                <textElement>
+                                    <paragraph firstLineIndent="3"
+                                      leftIndent="3"/>
+                                </textElement>
+                                <textFieldExpression>
+                                    <![CDATA[$F{№}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                    <jr:column width="80"
+                      uuid="fbe7aab8-77da-46b9-8afd-844ba49ce395">
+                        <property
+                          name="com.jaspersoft.studio.components.table.model.column.name"
+                          value="Column2"/>
+                        <jr:columnHeader style="Table 3_CH" height="60"
+                          rowSpan="2">
+                            <staticText>
+                                <reportElement mode="Opaque" x="0" y="0"
+                                  width="80" height="60"
+                                  uuid="9a99bf28-fd06-4555-b8d0-be20aa7aaa99"/>
+                                <textElement textAlignment="Center"
+                                  verticalAlignment="Middle">
+                                    <font size="10"/>
+                                </textElement>
+                                <text>
+                                    <![CDATA[Наименование раздела дисциплины]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table 3_TD" height="30">
+                            <textField>
+                                <reportElement x="0" y="0" width="80"
+                                  height="30"
+                                  uuid="24b4e273-bc58-4222-a8b2-ad2d54277f3c"/>
+                                <textElement>
+                                    <paragraph firstLineIndent="3"
+                                      leftIndent="3"/>
+                                </textElement>
+                                <textFieldExpression>
+                                    <![CDATA[$F{COURSE_SECTION_NAME}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                    <jr:columnGroup width="395"
+                      uuid="a39878e9-1305-45fb-b19c-4340adfba8a5">
+                        <property
+                          name="com.jaspersoft.studio.components.table.model.column.name"
+                          value="Columns [5]"/>
+                        <jr:columnHeader style="Table 3_CH" height="30">
+                            <staticText>
+                                <reportElement mode="Opaque" x="0" y="0"
+                                  width="395" height="30"
+                                  uuid="d5524847-9e9a-4c4a-975e-f3538b00700a"/>
+                                <textElement textAlignment="Center"
+                                  verticalAlignment="Middle">
+                                    <font size="10"/>
+                                </textElement>
+                                <text><![CDATA[Виды занятий (часов)]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:column width="79"
+                          uuid="011fd28b-a132-49b4-8247-6b1d871116a5">
+                            <property
+                              name="com.jaspersoft.studio.components.table.model.column.name"
+                              value="Column3"/>
+                            <jr:columnHeader style="Table 3_CH" height="30"
+                              rowSpan="1">
+                                <staticText>
+                                    <reportElement mode="Opaque" x="0" y="0"
+                                      width="79" height="30"
+                                      uuid="232c7520-badd-44d0-9250-972ac44d45f6"/>
+                                    <textElement textAlignment="Center"
+                                      verticalAlignment="Middle">
+                                        <font size="10"/>
+                                    </textElement>
+                                    <text><![CDATA[Леции]]></text>
+                                </staticText>
+                            </jr:columnHeader>
+                            <jr:detailCell style="Table 3_TD" height="30">
+                                <textField>
+                                    <reportElement x="0" y="0" width="79"
+                                      height="30"
+                                      uuid="17e1b619-b048-4f6e-987d-b7abf4f03544"/>
+                                    <textElement>
+                                        <paragraph firstLineIndent="3"
+                                          leftIndent="3"/>
+                                    </textElement>
+                                    <textFieldExpression>
+                                        <![CDATA[$F{LECTURES}]]></textFieldExpression>
+                                </textField>
+                            </jr:detailCell>
+                        </jr:column>
+                        <jr:column width="80"
+                          uuid="feb2b5de-cbb2-4bfe-a2c1-8815f65e9cc5">
+                            <property
+                              name="com.jaspersoft.studio.components.table.model.column.name"
+                              value="Column4"/>
+                            <jr:columnHeader style="Table 3_CH" height="30"
+                              rowSpan="1">
+                                <staticText>
+                                    <reportElement mode="Opaque" x="0" y="0"
+                                      width="80" height="30"
+                                      uuid="046441da-ef5d-4a03-9242-65db2fbe2d85"/>
+                                    <textElement textAlignment="Center"
+                                      verticalAlignment="Middle">
+                                        <font size="10"/>
+                                    </textElement>
+                                    <text><![CDATA[Практические]]></text>
+                                </staticText>
+                            </jr:columnHeader>
+                            <jr:detailCell style="Table 3_TD" height="30">
+                                <textField>
+                                    <reportElement x="0" y="0" width="80"
+                                      height="30"
+                                      uuid="b43eb0be-8d71-4d73-a671-755a2086e536"/>
+                                    <textElement>
+                                        <paragraph firstLineIndent="3"
+                                          leftIndent="3"/>
+                                    </textElement>
+                                    <textFieldExpression>
+                                        <![CDATA[$F{PRACTICE}]]></textFieldExpression>
+                                </textField>
+                            </jr:detailCell>
+                        </jr:column>
+                        <jr:column width="79"
+                          uuid="f8027e11-d839-4cc2-96e5-216f74c8c3f6">
+                            <property
+                              name="com.jaspersoft.studio.components.table.model.column.name"
+                              value="Column5"/>
+                            <jr:columnHeader style="Table 3_CH" height="30"
+                              rowSpan="1">
+                                <staticText>
+                                    <reportElement mode="Opaque" x="0" y="0"
+                                      width="79" height="30"
+                                      uuid="118185fa-2322-45d4-8ac5-fd14e7f2e02e"/>
+                                    <textElement textAlignment="Center"
+                                      verticalAlignment="Middle">
+                                        <font size="10"/>
+                                    </textElement>
+                                    <text><![CDATA[Лабораторные]]></text>
+                                </staticText>
+                            </jr:columnHeader>
+                            <jr:detailCell style="Table 3_TD" height="30">
+                                <textField>
+                                    <reportElement x="0" y="0" width="79"
+                                      height="30"
+                                      uuid="3132418d-b53e-4a6a-97cb-b63d522dd3cb"/>
+                                    <textElement>
+                                        <paragraph firstLineIndent="3"
+                                          leftIndent="3"/>
+                                    </textElement>
+                                    <textFieldExpression>
+                                        <![CDATA[$F{LAB}]]></textFieldExpression>
+                                </textField>
+                            </jr:detailCell>
+                        </jr:column>
+                        <jr:column width="80"
+                          uuid="fd2ee26d-f741-4ccf-bd50-689a2ff8fa9c">
+                            <property
+                              name="com.jaspersoft.studio.components.table.model.column.name"
+                              value="Column6"/>
+                            <jr:columnHeader style="Table 3_CH" height="30"
+                              rowSpan="1">
+                                <staticText>
+                                    <reportElement mode="Opaque" x="0" y="0"
+                                      width="80" height="30"
+                                      uuid="29ae54ee-8631-45e9-b2ea-b049b27e461d"/>
+                                    <textElement textAlignment="Center"
+                                      verticalAlignment="Middle">
+                                        <font size="10"/>
+                                        <paragraph lineSpacing="Single"/>
+                                    </textElement>
+                                    <text><![CDATA[Самостоятельная
+ работа]]></text>
+                                </staticText>
+                            </jr:columnHeader>
+                            <jr:detailCell style="Table 3_TD" height="30">
+                                <textField>
+                                    <reportElement x="0" y="0" width="80"
+                                      height="30"
+                                      uuid="8287862b-0584-49ad-bb8c-2a36b3b75c53"/>
+                                    <textElement>
+                                        <paragraph firstLineIndent="3"
+                                          leftIndent="3"/>
+                                    </textElement>
+                                    <textFieldExpression>
+                                        <![CDATA[$F{INDEPENDENT}]]></textFieldExpression>
+                                </textField>
+                            </jr:detailCell>
+                        </jr:column>
+                        <jr:column width="77"
+                          uuid="6a5f844d-62be-4ad9-931e-06ab6e4265a6">
+                            <property
+                              name="com.jaspersoft.studio.components.table.model.column.name"
+                              value="Column7"/>
+                            <jr:columnHeader style="Table 3_CH" height="30"
+                              rowSpan="1">
+                                <staticText>
+                                    <reportElement mode="Opaque" x="0" y="0"
+                                      width="77" height="30"
+                                      uuid="2952e5fb-8187-4843-83e4-8d8a64bd8fed"/>
+                                    <textElement textAlignment="Center"
+                                      verticalAlignment="Middle">
+                                        <font size="10"/>
+                                    </textElement>
+                                    <text><![CDATA[Всего]]></text>
+                                </staticText>
+                            </jr:columnHeader>
+                            <jr:detailCell style="Table 3_TD" height="30">
+                                <textField>
+                                    <reportElement x="0" y="0" width="77"
+                                      height="30"
+                                      uuid="12df1a0e-eead-42c9-9cc6-3c7239cf5d6d"/>
+                                    <textElement>
+                                        <paragraph firstLineIndent="3"
+                                          leftIndent="3"/>
+                                    </textElement>
+                                    <textFieldExpression>
+                                        <![CDATA[$F{ALL}]]></textFieldExpression>
+                                </textField>
+                            </jr:detailCell>
+                        </jr:column>
+                    </jr:columnGroup>
+                </jr:table>
+            </componentElement>
+        </band>
+        <band height="146">
+            <staticText>
+                <reportElement x="0" y="0" width="555" height="20"
+                  uuid="328b7916-5c61-4b4a-9f9a-1a6da2d09830"/>
+                <textElement>
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <text>
+                    <![CDATA[13. Учебно-методическое и информационное обеспечение дисциплины]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="20" width="555" height="30"
+                  uuid="b72adcd6-d077-48aa-b6a0-b29d2f720483"/>
+                <textElement textAlignment="Center" verticalAlignment="Top">
+                    <font size="9" isItalic="true"/>
+                </textElement>
+                <text><![CDATA[(список оформляется в соответствии с требованиями ГОС и ФГОС,
+ используется общая сквозная нумерация для всех видов литературы)
+]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="50" width="555" height="20"
+                  uuid="e64040af-83e4-4826-9273-567e4fb1c62e"/>
+                <textElement>
+                    <font size="9"/>
+                </textElement>
+                <text><![CDATA[а) основная литература:]]></text>
+            </staticText>
+            <componentElement>
+                <reportElement x="0" y="70" width="555" height="50"
+                  uuid="e81f03fb-4cc3-468d-a649-d11bb5535d81">
+                    <property name="com.jaspersoft.studio.layout"
+                      value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+                    <property
+                      name="com.jaspersoft.studio.table.style.table_header"
+                      value="Table 4_TH"/>
+                    <property
+                      name="com.jaspersoft.studio.table.style.column_header"
+                      value="Table 4_CH"/>
+                    <property name="com.jaspersoft.studio.table.style.detail"
+                      value="Table 4_TD"/>
+                    <property
+                      name="com.jaspersoft.studio.components.autoresize.proportional"
+                      value="true"/>
+                </reportElement>
+                <jr:table
+                  xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components"
+                  xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+                    <datasetRun subDataset="AcademicAndInformationSupport"
+                      uuid="55bc09ca-97f3-4ce6-b746-f51730ff53f2">
+                        <connectionExpression>
+                            <![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+                    </datasetRun>
+                    <jr:column width="278"
+                      uuid="9c5c1cb7-2bf2-42fb-b04f-9cff9e7c5516">
+                        <jr:columnHeader style="Table 4_CH" height="20">
+                            <staticText>
+                                <reportElement mode="Opaque" x="0" y="0"
+                                  width="278" height="20"
+                                  uuid="7744c441-0fa5-4b0b-b053-64d5813dc74e"/>
+                                <textElement textAlignment="Center"
+                                  verticalAlignment="Middle">
+                                    <font size="9"/>
+                                </textElement>
+                                <text><![CDATA[№ п/п]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table 4_TD" height="30">
+                            <textField>
+                                <reportElement x="0" y="0" width="278"
+                                  height="30"
+                                  uuid="9254fe7c-77e8-47cc-84d2-2e82040ebbcb"/>
+                                <textElement>
+                                    <paragraph firstLineIndent="3"
+                                      leftIndent="3"/>
+                                </textElement>
+                                <textFieldExpression>
+                                    <![CDATA[$F{№}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                    <jr:column width="277"
+                      uuid="89cc9de7-9a0f-4a5a-9e3a-be3a6c53d95f">
+                        <jr:columnHeader style="Table 4_CH" height="20">
+                            <staticText>
+                                <reportElement mode="Opaque" x="0" y="0"
+                                  width="277" height="20"
+                                  uuid="4726da40-aad4-480d-b2ce-6446927a6f13"/>
+                                <textElement textAlignment="Center"
+                                  verticalAlignment="Middle">
+                                    <font size="9"/>
+                                </textElement>
+                                <text><![CDATA[Источник]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table 4_TD" height="30">
+                            <textField>
+                                <reportElement x="0" y="0" width="277"
+                                  height="30"
+                                  uuid="d4bd445a-46cd-4c94-9287-08331fa4c683"/>
+                                <textElement>
+                                    <paragraph firstLineIndent="3"
+                                      leftIndent="3"/>
+                                </textElement>
+                                <textFieldExpression>
+                                    <![CDATA[$F{REFERENCE_1}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                </jr:table>
+            </componentElement>
+        </band>
+        <band height="86">
+            <staticText>
+                <reportElement x="0" y="0" width="555" height="20"
+                  uuid="595da49c-5949-4bea-be09-f7f3f3de8fba"/>
+                <textElement>
+                    <font size="9"/>
+                </textElement>
+                <text><![CDATA[б) дополнительная литература:]]></text>
+            </staticText>
+            <componentElement>
+                <reportElement x="0" y="20" width="555" height="50"
+                  uuid="598178dd-857b-4c2f-abd0-c007dfb15fce">
+                    <property name="com.jaspersoft.studio.layout"
+                      value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+                    <property
+                      name="com.jaspersoft.studio.table.style.table_header"
+                      value="Table 4_TH"/>
+                    <property
+                      name="com.jaspersoft.studio.table.style.column_header"
+                      value="Table 4_CH"/>
+                    <property name="com.jaspersoft.studio.table.style.detail"
+                      value="Table 4_TD"/>
+                    <property
+                      name="com.jaspersoft.studio.components.autoresize.proportional"
+                      value="true"/>
+                </reportElement>
+                <jr:table
+                  xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components"
+                  xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+                    <datasetRun subDataset="AcademicAndInformationSupport"
+                      uuid="aca58188-3cfa-4475-bb1f-9798bddd15be">
+                        <connectionExpression>
+                            <![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+                    </datasetRun>
+                    <jr:column width="278"
+                      uuid="82f12ffe-6d93-46c9-a244-b6dcedeb1f7d">
+                        <jr:columnHeader style="Table 4_CH" height="20">
+                            <staticText>
+                                <reportElement mode="Opaque" x="0" y="0"
+                                  width="278" height="20"
+                                  uuid="030ed90f-9190-4694-8657-6c9530a5ddb4"/>
+                                <textElement textAlignment="Center"
+                                  verticalAlignment="Middle">
+                                    <font size="9"/>
+                                </textElement>
+                                <text><![CDATA[№ п/п]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table 4_TD" height="30">
+                            <textField>
+                                <reportElement x="0" y="0" width="278"
+                                  height="30"
+                                  uuid="9baa87ba-615e-4f3b-8027-b6a361c65e7c"/>
+                                <textElement>
+                                    <paragraph firstLineIndent="3"
+                                      leftIndent="3"/>
+                                </textElement>
+                                <textFieldExpression>
+                                    <![CDATA[$F{№}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                    <jr:column width="277"
+                      uuid="cf5df9e3-761f-4ec7-ba0e-122156624840">
+                        <jr:columnHeader style="Table 4_CH" height="20">
+                            <staticText>
+                                <reportElement mode="Opaque" x="0" y="0"
+                                  width="277" height="20"
+                                  uuid="6b2962c3-e775-433f-b08b-8895d3498128"/>
+                                <textElement textAlignment="Center"
+                                  verticalAlignment="Middle">
+                                    <font size="9"/>
+                                </textElement>
+                                <text><![CDATA[Источник]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table 4_TD" height="30">
+                            <textField>
+                                <reportElement x="0" y="0" width="277"
+                                  height="30"
+                                  uuid="70333b83-6e41-4b84-918e-57b6e8ef40ab"/>
+                                <textElement>
+                                    <paragraph firstLineIndent="3"
+                                      leftIndent="3"/>
+                                </textElement>
+                                <textFieldExpression>
+                                    <![CDATA[$F{REFERENCE_2}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                </jr:table>
+            </componentElement>
+        </band>
+        <band height="90">
+            <staticText>
+                <reportElement x="0" y="0" width="555" height="20"
+                  uuid="fd41369b-ebdf-401e-93c1-e1a6b99908c9"/>
+                <textElement>
+                    <font size="9"/>
+                </textElement>
+                <text>
+                    <![CDATA[в) информационные электронно-образовательные ресурсы:]]></text>
+            </staticText>
+            <componentElement>
+                <reportElement x="0" y="20" width="555" height="50"
+                  uuid="9a076c9b-95d1-4c9e-bf8c-fa0bec21d23e">
+                    <property name="com.jaspersoft.studio.layout"
+                      value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+                    <property
+                      name="com.jaspersoft.studio.table.style.table_header"
+                      value="Table 4_TH"/>
+                    <property
+                      name="com.jaspersoft.studio.table.style.column_header"
+                      value="Table 4_CH"/>
+                    <property name="com.jaspersoft.studio.table.style.detail"
+                      value="Table 4_TD"/>
+                    <property
+                      name="com.jaspersoft.studio.components.autoresize.proportional"
+                      value="true"/>
+                </reportElement>
+                <jr:table
+                  xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components"
+                  xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+                    <datasetRun subDataset="AcademicAndInformationSupport"
+                      uuid="e081b00c-c20f-429b-b6b2-a982966cc119">
+                        <connectionExpression>
+                            <![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+                    </datasetRun>
+                    <jr:column width="278"
+                      uuid="6b927b72-1d4a-436e-9e37-b68cfcd326f5">
+                        <jr:columnHeader style="Table 4_CH" height="20">
+                            <staticText>
+                                <reportElement mode="Opaque" x="0" y="0"
+                                  width="278" height="20"
+                                  uuid="0a8c465b-a200-4634-bee2-8f9a2659bcc8"/>
+                                <textElement textAlignment="Center"
+                                  verticalAlignment="Middle">
+                                    <font size="9"/>
+                                </textElement>
+                                <text><![CDATA[№ п/п]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table 4_TD" height="30">
+                            <textField>
+                                <reportElement x="0" y="0" width="278"
+                                  height="30"
+                                  uuid="1b540cbb-13b8-4e9c-94a5-f42b1ee0f01f"/>
+                                <textElement>
+                                    <paragraph firstLineIndent="3"
+                                      leftIndent="3"/>
+                                </textElement>
+                                <textFieldExpression>
+                                    <![CDATA[$F{№}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                    <jr:column width="277"
+                      uuid="6bdde702-92cf-410a-bc1d-ba13c4588853">
+                        <jr:columnHeader style="Table 4_CH" height="20">
+                            <staticText>
+                                <reportElement mode="Opaque" x="0" y="0"
+                                  width="277" height="20"
+                                  uuid="03dc5a9d-b6f8-4b66-9d6b-5ce03076842a"/>
+                                <textElement textAlignment="Center"
+                                  verticalAlignment="Middle">
+                                    <font size="9"/>
+                                </textElement>
+                                <text><![CDATA[Источник]]></text>
+                            </staticText>
+                        </jr:columnHeader>
+                        <jr:detailCell style="Table 4_TD" height="30">
+                            <textField>
+                                <reportElement x="0" y="0" width="277"
+                                  height="30"
+                                  uuid="d1914577-e8c1-4bcd-9de4-0cbf5f4547a0"/>
+                                <textElement>
+                                    <paragraph firstLineIndent="3"
+                                      leftIndent="3"/>
+                                </textElement>
+                                <textFieldExpression>
+                                    <![CDATA[$F{REFERENCE_3}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                </jr:table>
+            </componentElement>
+        </band>
+        <band height="60">
+            <staticText>
+                <reportElement x="0" y="0" width="555" height="20"
+                  uuid="927a5ec8-51dc-4e48-adfd-36267048ce68"/>
+                <textElement>
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <text>
+                    <![CDATA[14. Материально-техническое обеспечение дисциплины:]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="20" width="555" height="20"
+                  uuid="47b25207-b5e0-40a5-992a-d81e6b9df5f4"/>
+                <textElement>
+                    <font size="11"/>
+                </textElement>
+                <text>
+                    <![CDATA[Компьютеры с операционной системой OS Windows, Linux, OSX; проектор.]]></text>
+            </staticText>
+        </band>
+        <band height="64">
+            <staticText>
+                <reportElement x="0" y="0" width="555" height="18"
+                  uuid="3ac62959-2c4b-4507-8c0b-0d9d7806a4ab"/>
+                <textElement>
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <text>
+                    <![CDATA[15. Форма организации самостоятельной работы:]]></text>
+            </staticText>
+            <staticText>
+                <reportElement x="0" y="18" width="555" height="30"
+                  uuid="a245fa89-7df5-4dff-bbe0-42af56889646"/>
+                <textElement>
+                    <font isBold="false"/>
+                </textElement>
+                <text>
+                    <![CDATA[Лекционные занятия проводятся в традиционной форме в соответствии с календарным планом чтения лекций. Целесообразно лекции сопровождать презентациями и практическими примерами.]]></text>
+            </staticText>
+        </band>
+        <band height="90">
+            <staticText>
+                <reportElement x="0" y="0" width="555" height="40"
+                  uuid="c7b668a9-0bdc-440c-9dfb-926f7b2f80bd"/>
+                <textElement>
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <text>
+                    <![CDATA[16. Критерии аттестации по итогам освоения дисциплины:]]></text>
+            </staticText>
+            <componentElement>
+                <reportElement x="0" y="40" width="555" height="32"
+                  uuid="c316a6f3-8dc9-4d07-9172-f7eaaac25e42">
+                    <property name="com.jaspersoft.studio.layout"
+                      value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+                    <property
+                      name="com.jaspersoft.studio.table.style.table_header"
+                      value="Table 5_TH"/>
+                    <property
+                      name="com.jaspersoft.studio.table.style.column_header"
+                      value="Table 5_CH"/>
+                    <property name="com.jaspersoft.studio.table.style.detail"
+                      value="Table 5_TD"/>
+                    <property
+                      name="com.jaspersoft.studio.components.autoresize.proportional"
+                      value="true"/>
+                </reportElement>
+                <jr:table
+                  xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components"
+                  xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+                    <datasetRun subDataset="AssessmentCriteriaDataset"
+                      uuid="51b50496-29d1-401c-9418-391079c1c218">
+                        <connectionExpression>
+                            <![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+                    </datasetRun>
+                    <jr:column width="130"
+                      uuid="0ed85d77-cb90-410b-b66f-025cb4978c88">
+                        <jr:detailCell style="Table 5_TD" height="30">
+                            <textField>
+                                <reportElement x="0" y="0" width="130"
+                                  height="30"
+                                  uuid="252456b7-401b-4675-8ebc-16fc264ee03a"/>
+                                <textFieldExpression>
+                                    <![CDATA[$F{MARK}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                    <jr:column width="425"
+                      uuid="69d6a974-7ece-44df-b97e-3e98fda2f318">
+                        <jr:detailCell style="Table 5_TD" height="30">
+                            <textField>
+                                <reportElement x="0" y="0" width="425"
+                                  height="30"
+                                  uuid="a928d280-e43a-4af6-ba9e-56c945476f26"/>
+                                <textFieldExpression>
+                                    <![CDATA[$F{CRETERIA}]]></textFieldExpression>
+                            </textField>
+                        </jr:detailCell>
+                    </jr:column>
+                </jr:table>
+            </componentElement>
+        </band>
+        <band height="50">
+            <staticText>
+                <reportElement x="0" y="0" width="555" height="20"
+                  uuid="6662d0c4-ad57-46a8-ae71-b101d368f698"/>
+                <textElement>
+                    <font size="12" isBold="true"/>
+                </textElement>
+                <text>
+                    <![CDATA[17. Примеры контрольно-измерительных материалов:]]></text>
+            </staticText>
+            <componentElement>
+                <reportElement x="50" y="20" width="100" height="30"
+                  uuid="a3bea517-c895-40f5-bb96-ec9b1a6aab2a"/>
+                <jr:list
+                  xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components"
+                  xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd"
+                  printOrder="Vertical">
+                    <datasetRun
+                      subDataset="TestingAndAssessmentMaterialsDataset"
+                      uuid="f236fad6-27f6-4968-a596-3b164970889c">
+                        <connectionExpression>
+                            <![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+                    </datasetRun>
+                    <jr:listContents height="30" width="100">
+                        <textField>
+                            <reportElement x="0" y="0" width="100" height="30"
+                              uuid="7d4a7ceb-05fe-42ac-890d-54ff6346e839"/>
+                            <textFieldExpression>
+                                <![CDATA[$F{EXAMPLE}]]></textFieldExpression>
+                        </textField>
+                    </jr:listContents>
+                </jr:list>
+            </componentElement>
+        </band>
+    </detail>
+</jasperReport>
